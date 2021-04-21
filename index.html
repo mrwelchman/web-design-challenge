@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Better Late Than Never: A Web Design Project</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="bg-image"></div>
+	<!-- navbar mania -->
+	<div class="navigation">	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="index.html">Latitude vs X</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+		      <ul class="nav justify-content-end">
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Plots
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="max-temp.html">Max Temperature</a></li>
+		            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+		            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+		            <li><a class="dropdown-item" href="wind-speed.html">Wind Speed</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="comparisons.html">Comparisons</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="data.html">Data</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</div>
+	<!-- meat and potatoes -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-mid-12">
+				<div class="box" style="padding-bottom: 20px;">
+					<br/>
+					<h3 class="title">Summary: Latitude with Attitude vs XXX</h3>
+					<hr>
+					<img src="Resources/assets/images/climate.png" class="visualization rounded float-left" alt="Latitude vs Max Temp graph">
+					<hr>
+					<p>The purpose of this project was to try to format an html in such a way that I demonstrate that I know what I'm doing when it comes to utilizing <b>html</b>, <b>css</b>, and <b>bootstrap</b> to visualize data on a webpage. I think.</p>
+					<p>The data that I'm visualizing was provided to me from the bootcamp. It's an assignment that we did a few months ago. Whose assignment was this? Who knows. I sure don't. Let's call the student who completed the assignment <b>Nadine</b>.</p>
+					<p>So please come with me, and we'll be, taken through a land of Nadine's data creation. You can navigate through the entire site from the navigation bar at the top. To return here to the good ol' homepage, click where it says <b>"Latitude vs X"</b> in the upper left corner. Have a ball.</p>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-12">
+				<div class="navbox" style="padding-bottom: 50px;">
+					<br/>
+					<h4 class="title">Visualizations. Sweet, Sweet, Visualizations.</h4>
+					<hr>
+					<div class="visual-container">
+						<div class="row" style="padding-bottom: 70px;">
+							<div class="col-6">
+								<a href="max-temp.html" class="title">Latitude vs Max Temp</a>
+								<a href="max-temp.html">
+								<img class="panel" src="Resources/assets/images/Fig1.png" alt="Maximum Temperature">
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="humidity.html" class="title">Latitude vs Humidity</a>
+								<a href="humidity.html">
+								<img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity">
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<a href="cloudiness.html" class="title">Latitude vs Cloudiness</a>
+								<a href="cloudiness.html">
+								<img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+								</a>
+							</div>
+							<div class="col-6">
+								<a href="wind-speed.html" class="title">Latitude vs Wind Speed</a>
+								<a href="wind-speed.html">
+								<img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<footer>Copyright 2021 The Great Michael Welch</footer>
+	
+	<!-- bootstrap bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+
+</html>
